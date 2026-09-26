@@ -1,0 +1,453 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Faz o site se adaptar corretamente ao celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>O Nosso Amor 💜</title>
+
+    <!-- Arquivo de estilos que vamos criar depois -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         EMOJIS FLUTUANTES
+         Os emojis ficarão subindo pelo fundo da página.
+         Podemos alterar/adicionar emojis depois.
+    ====================================================== -->
+
+    <div class="emojis-fundo" aria-hidden="true">
+        <span>💜</span>
+        <span>✨</span>
+        <span>🖤</span>
+        <span>💌</span>
+        <span>💜</span>
+        <span>✨</span>
+        <span>🎵</span>
+        <span>💜</span>
+    </div>
+
+
+    <!-- =====================================================
+         TELA DE ABERTURA
+         É a primeira coisa que a Vi verá.
+    ====================================================== -->
+
+    <section id="abertura" class="tela-abertura">
+
+        <div class="abertura-conteudo">
+
+            <h1>Oi, Vi...</h1>
+
+            <p>
+                Eu fiz uma coisa pra você.
+            </p>
+
+            <button id="botao-entrar" class="botao-principal">
+                Entrar 💜
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CONTEÚDO PRINCIPAL
+         Começa escondido e será mostrado depois que
+         ela clicar em "Entrar".
+    ====================================================== -->
+
+    <main id="conteudo-principal" class="conteudo-principal">
+
+
+        <!-- =================================================
+             HEADER / NAVEGAÇÃO
+        ================================================== -->
+
+        <header class="cabecalho">
+
+            <a href="index.html" class="logo">
+                💜 O Nosso Amor
+            </a>
+
+            <nav class="navegacao">
+
+                <a href="index.html" class="link-ativo">
+                    Início
+                </a>
+
+                <a href="casa.html">
+                    Nossa Casa
+                </a>
+
+                <a href="juntos.html">
+                    Juntos Mais Uma Vez
+                </a>
+
+            </nav>
+
+        </header>
+
+
+        <!-- =================================================
+             APRESENTAÇÃO
+        ================================================== -->
+
+        <section class="secao apresentacao">
+
+            <p class="pequeno-titulo">
+                PARA A VI
+            </p>
+
+            <h2>
+                Este lugar é só nosso, viu? 💜
+            </h2>
+
+            <p>
+                <!-- COLOQUE SEU TEXTO AQUI -->
+                Vi... Você é a pessoa em que eu mais admiro, respeito, amo e mais quero bem!
+            </p>
+
+            <p>
+                <!-- COLOQUE OUTRO TEXTO AQUI, SE QUISER -->
+                Eu não consigo colocar em palavras a sensação de estar ao seu lado. Você ao meu lado se tornou o meu porto seguro e me mostrou o que é amar e ser amado em voz de alta. Eu te amo mais que tudo!
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             MÚSICA
+             Vamos manter uma seção de música nas três páginas.
+        ================================================== -->
+
+        <section class="secao musica">
+
+            <p class="pequeno-titulo">
+                UMA MÚSICA PRA TI, BB 🎵
+            </p>
+
+            <h2>
+                <!-- COLOQUE O NOME DA MÚSICA AQUI -->
+                Lights
+            </h2>
+
+            <p>
+                <!-- COLOQUE O ARTISTA AQUI -->
+                BTS
+            </p>
+
+            <!--
+                COLOQUE O LINK/ARQUIVO DA MÚSICA AQUI.
+
+                Por enquanto deixamos o player preparado.
+                Depois podemos decidir se usaremos:
+                - arquivo de áudio;
+                - Spotify;
+                - YouTube;
+                - outro método.
+            -->
+
+            <audio controls>
+                <source src="musicas/BTS - Lights (Color Coded Lyrics Eng Rom 日本語字幕 한국어 가사).mp3" type="audio/mpeg">
+
+                Seu navegador não suporta o player de áudio.
+            </audio>
+
+        </section>
+
+
+        <!-- =================================================
+             FOTO DE DESTAQUE
+        ================================================== -->
+
+        <section class="secao foto-destaque">
+
+            <p class="pequeno-titulo">
+                UMA PARTE DO NOSSO PRIMEIRO MÊS JUNTOS📸
+            </p>
+
+            <div class="imagem-container">
+
+                <!--
+                    COLOQUE SUA IMAGEM AQUI.
+
+                    Exemplo:
+                    <img src="imagens/foto1.jpg" alt="Descrição da foto">
+                -->
+
+                <img
+                    src="imagens/primeira_foto.jpeg"
+                    alt=" "
+                >
+
+            </div>
+
+            <p class="legenda-imagem">
+                <!-- COLOQUE A LEGENDA DA FOTO AQUI -->
+                Há exatamente um mês... Você se tornou a minha Cadence, e eu como seu Shining Armor, quero te proteger e te amar mais que tudo!
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             POSTERS / MENSAGENS
+        ================================================== -->
+
+        <section class="secao posters">
+
+            <p class="pequeno-titulo">
+                ALGUMAS COISAS QUE EU QUERIA TE DIZER 💌
+            </p>
+
+            <h2>
+                Pequenas mensagens para você.
+            </h2>
+
+
+            <!-- POSTER 1 -->
+
+            <article class="poster poster-1">
+
+                <p>
+                    <!-- COLOQUE SUA MENSAGEM AQUI -->
+                    Saiba que você pode confiar em mim para tudo!
+                </p>
+
+                <span>
+                    — Renan
+                </span>
+
+            </article>
+
+
+            <!-- POSTER 2 -->
+
+            <article class="poster poster-2">
+
+                <p>
+                    <!-- COLOQUE SUA SEGUNDA MENSAGEM AQUI -->
+                    Sacanagem po, você é tão linda...
+                </p>
+
+                <span>
+                    — Renan
+                </span>
+
+            </article>
+
+
+            <!-- POSTER 3 -->
+
+            <article class="poster poster-3">
+
+                <p>
+                    <!-- COLOQUE SUA TERCEIRA MENSAGEM AQUI -->
+                    É tudo sobre você, sempre é você.
+                </p>
+
+                <span>
+                    — Renan
+                </span>
+
+            </article>
+
+        </section>
+
+
+        <!-- =================================================
+             NOSSA CASA
+        ================================================== -->
+
+        <section class="secao destaque-pagina">
+
+            <div class="icone-secao">
+                🏠
+            </div>
+
+            <p class="pequeno-titulo">
+                NOSSA CASA
+            </p>
+
+            <h2>
+                Um lugar que é só nosso.
+            </h2>
+
+            <p>
+                <!-- COLOQUE UMA PEQUENA DESCRIÇÃO AQUI -->
+                Nossas memórias e coisinhas hehe
+            </p>
+
+            <a href="casa.html" class="botao-secundario">
+                Conhecer nossa casa →
+            </a>
+
+        </section>
+
+
+        <!-- =================================================
+             JUNTOS MAIS UMA VEZ
+        ================================================== -->
+
+        <section class="secao destaque-pagina">
+
+            <div class="icone-secao">
+                📖
+            </div>
+
+            <p class="pequeno-titulo">
+                JUNTOS MAIS UMA VEZ
+            </p>
+
+            <h2>
+                Nossa história ainda está sendo escrita.
+            </h2>
+
+            <p>
+                <!-- COLOQUE UMA PEQUENA DESCRIÇÃO AQUI -->
+                Onde todo mês a nossa história cresce...
+            </p>
+
+            <a href="juntos.html" class="botao-secundario">
+                Ver nossa história →
+            </a>
+
+        </section>
+
+
+        <!-- =================================================
+             BOTÃO SECRETO 👀
+        ================================================== -->
+
+        <section class="secao segredo">
+
+            <!--
+                A ideia é que este botão pareça um detalhe
+                comum da página.
+
+                Depois podemos fazer algo especial acontecer
+                quando ela clicar nele.
+            -->
+
+            <button
+                id="botao-secreto"
+                class="botao-secreto"
+                aria-label="Botão secreto"
+            >
+                ✨
+            </button>
+
+            <!--
+                Esta mensagem começa escondida.
+
+                O JavaScript vai mostrar quando o botão
+                secreto for clicado.
+            -->
+
+            <div id="mensagem-secreta" class="mensagem-secreta">
+
+                <h2>
+                    Você encontrou. 👀
+                </h2>
+
+                <p>
+                    <!-- COLOQUE AQUI A SUA MENSAGEM SECRETA -->
+                    A mensagem secreta é... Com todo respeito mas você é uma tremenda gostosa KKKKKKKK
+                </p>
+
+                <p>
+                    🫦
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             RODAPÉ
+        ================================================== -->
+
+        <footer class="rodape">
+
+            <p>
+                Feito com 💜 por Renan para Vi.
+            </p>
+
+            <p>
+                Nosso primeiro mês — SET 2026
+            </p>
+
+            <button
+                class="voltar-topo"
+                onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+            >
+                ↑ Voltar ao topo
+            </button>
+
+        </footer>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         Por enquanto, o JavaScript fica aqui porque ainda
+         estamos trabalhando apenas no Index.
+
+         Depois podemos separar em um arquivo próprio,
+         caso o projeto cresça.
+    ====================================================== -->
+
+    <script>
+
+        /* ==================================================
+           BOTÃO "ENTRAR"
+        ================================================== */
+
+        const botaoEntrar = document.getElementById("botao-entrar");
+        const abertura = document.getElementById("abertura");
+        const conteudoPrincipal = document.getElementById("conteudo-principal");
+
+
+        botaoEntrar.addEventListener("click", function () {
+
+            // Esconde a tela de abertura
+            abertura.classList.add("abertura-fechada");
+
+            // Mostra o conteúdo principal
+            conteudoPrincipal.classList.add("conteudo-visivel");
+
+        });
+
+
+        /* ==================================================
+           BOTÃO SECRETO 👀
+        ================================================== */
+
+        const botaoSecreto = document.getElementById("botao-secreto");
+        const mensagemSecreta = document.getElementById("mensagem-secreta");
+
+
+        botaoSecreto.addEventListener("click", function () {
+
+            // Mostra ou esconde a mensagem secreta
+            mensagemSecreta.classList.toggle("segredo-visivel");
+
+        });
+
+    </script>
+
+</body>
+
+</html>
+
